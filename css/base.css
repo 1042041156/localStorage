@@ -1,0 +1,90 @@
+/*margin的样式初始化*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+input {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*padding的样式初始化*/
+ul,
+ol,
+th,
+td,
+input,
+option,
+textarea {
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+/*list的样式初始化*/
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+/*font-style的样式初始化*/
+em,
+i {
+	font-style: normal;
+}
+
+/*图片的样式初始化*/
+img {
+	border: none;
+	vertical-align: top;
+}
+
+/*文本修饰的样式初始化*/
+a {
+	text-decoration: none;
+}
+
+/*table的样式初始化*/
+table {
+	border-collapse: collapse;
+}
+
+/*外边框*/
+input,
+button,
+textarea {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+input,
+button {
+	border: 0;
+}
+
+/*BFC*/
+.clear::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.clear {
+	zoom: 1;
+}
